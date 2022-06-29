@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "d39BzvFNLpmIXJfnv4uL8tFweVem6U8JCpWZh7VR7tM=",
+  "Source": "Oraculo.Api",
+  "BasePath": "_content/Oraculo.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
