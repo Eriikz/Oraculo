@@ -28,3 +28,8 @@ C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\obj\Debug\net6.0\ref\Oraculo.Api.dll
 C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
 C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\bin\Debug\net6.0\Npgsql.dll
+C:\Users\Erik\Desktop\Oraculo\Oraculo.Api\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

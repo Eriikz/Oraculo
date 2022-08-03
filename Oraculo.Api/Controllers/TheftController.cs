@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Oraculo.Api.Code;
+using Oraculo.Api.Models;
 
 namespace Oraculo.Api.Controllers
 {
@@ -12,16 +12,5 @@ namespace Oraculo.Api.Controllers
         {
           return  new List<Theft>();
         }
-
-        //[HttpGet("{id}", Name = "GetTheft")]
-        //public IActionResult Get(int id)
-        //{
-        //    //var model = service.GetFilme(id);
-        //    //if (model == null)
-        //    //    return NotFound();
-
-        //    //var outputModel = ToOutputModel(model);
-        //    return Ok(outputModel);
-        //}
     }
 }
