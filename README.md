@@ -1,3 +1,3 @@
 # Oraculo
 
-Sistema statistico de criminalidade local
+Sistema estatistico de criminalidade local
