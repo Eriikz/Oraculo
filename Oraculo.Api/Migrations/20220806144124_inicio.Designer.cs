@@ -12,8 +12,8 @@ using Oraculo.Api.Models;
 namespace Oraculo.Api.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220803011630_Inicio")]
-    partial class Inicio
+    [Migration("20220806144124_inicio")]
+    partial class inicio
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -26,9 +26,9 @@ namespace Oraculo.Api.Migrations
 
             modelBuilder.Entity("Oraculo.Api.Models.Theft", b =>
                 {
-                    b.Property<double>("NumeroBO")
+                    b.Property<double>("Num_bo")
                         .HasColumnType("double precision")
-                        .HasColumnName("NumeroBO");
+                        .HasColumnName("Num_bo");
 
                     b.Property<int>("Ano_bo")
                         .HasColumnType("integer")
@@ -168,10 +168,8 @@ namespace Oraculo.Api.Migrations
                         .HasColumnType("character varying(20)")
                         .HasColumnName("Grauinstrucao");
 
-                    b.Property<string>("Horaocorrencia")
-                        .IsRequired()
-                        .HasMaxLength(2)
-                        .HasColumnType("character varying(2)")
+                    b.Property<DateTime>("Horaocorrencia")
+                        .HasColumnType("timestamp with time zone")
                         .HasColumnName("Horaocorrencia");
 
                     b.Property<int>("Idade")
@@ -219,10 +217,6 @@ namespace Oraculo.Api.Migrations
                         .HasMaxLength(50)
                         .HasColumnType("character varying(50)")
                         .HasColumnName("Naturezavinculada");
-
-                    b.Property<double>("Num_bo")
-                        .HasColumnType("double precision")
-                        .HasColumnName("Num_bo");
 
                     b.Property<double>("Numero")
                         .HasColumnType("double precision")
@@ -314,8 +308,7 @@ namespace Oraculo.Api.Migrations
 
                     b.Property<string>("Type")
                         .IsRequired()
-                        .HasMaxLength(10)
-                        .HasColumnType("character varying(10)")
+                        .HasColumnType("text")
                         .HasColumnName("Type");
 
                     b.Property<string>("Uf")
@@ -336,7 +329,7 @@ namespace Oraculo.Api.Migrations
                         .HasColumnType("character varying(50)")
                         .HasColumnName("Vitimafatal");
 
-                    b.HasKey("NumeroBO");
+                    b.HasKey("Num_bo");
 
                     b.ToTable("Theft");
                 });

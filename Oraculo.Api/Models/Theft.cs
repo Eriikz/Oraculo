@@ -7,16 +7,13 @@ namespace Oraculo.Api.Models
     public class Theft
     {
         [Key]
-        [Column("NumeroBO")]
-        public double NumeroBO { get; set; }
-        [MaxLength(10)]
+        [Display(Name = "Num_bo")]
+        [Column("Num_bo")]
+        public double Num_bo { get; set; }
         [Column("Type")]
-        [Display(Name = "Ano B.O")]
         public string Type { get; set; }
         [Column("Ano_bo")]
         public int Ano_bo { get; set; }
-        [Column("Num_bo")]
-        public double Num_bo { get; set; }
         [MaxLength(15)]
         [Column("Numero_boletim")]
         public string Numero_boletim { get; set; }
@@ -26,9 +23,8 @@ namespace Oraculo.Api.Models
         public DateTime Bo_emitido { get; set; }
         [Column("Dataocorrencia")]
         public DateTime Dataocorrencia { get; set; }
-        [MaxLength(02)]
         [Column("Horaocorrencia")]
-        public string Horaocorrencia { get; set; }
+        public DateTime Horaocorrencia { get; set; }
         [MaxLength(15)]
         [Column("Peridoocorrencia")]
         public string Peridoocorrencia { get; set; }

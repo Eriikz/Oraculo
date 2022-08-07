@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wlxfHtqnUWOh3QbFIKUUqzFPbR8GW8GXGAPHqDoyFTqINax/jK/5+ktJsbZ1Q1vOEVFX3tw3PxCC/eJQs8hlfg==",
+  "dgSpecHash": "rT0gCgfhbUcii9Jfsc9l++qeI5T3xUvDhtU+i1ay1yVUJ/s39kzweET0hUCOvSy/4jLaX/iDlBSmCY0FG85jTw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Erik\\Desktop\\Oraculo\\Oraculo.Api\\Oraculo.Api.csproj",
   "expectedPackageFiles": [
@@ -23,9 +23,9 @@
     "C:\\Users\\Erik\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\Erik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Erik\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.16.1\\microsoft.visualstudio.azure.containers.tools.targets.1.16.1.nupkg.sha512",
-    "C:\\Users\\Erik\\.nuget\\packages\\npgsql\\6.0.5\\npgsql.6.0.5.nupkg.sha512",
-    "C:\\Users\\Erik\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.5\\npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
-    "C:\\Users\\Erik\\.nuget\\packages\\sonaranalyzer.csharp\\8.42.0.51121\\sonaranalyzer.csharp.8.42.0.51121.nupkg.sha512",
+    "C:\\Users\\Erik\\.nuget\\packages\\npgsql\\6.0.6\\npgsql.6.0.6.nupkg.sha512",
+    "C:\\Users\\Erik\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.6\\npgsql.entityframeworkcore.postgresql.6.0.6.nupkg.sha512",
+    "C:\\Users\\Erik\\.nuget\\packages\\sonaranalyzer.csharp\\8.43.0.51858\\sonaranalyzer.csharp.8.43.0.51858.nupkg.sha512",
     "C:\\Users\\Erik\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\Erik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\Erik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

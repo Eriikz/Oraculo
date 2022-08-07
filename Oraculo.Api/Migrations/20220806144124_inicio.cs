@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Oraculo.Api.Migrations
 {
-    public partial class Inicio : Migration
+    public partial class inicio : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -13,15 +13,14 @@ namespace Oraculo.Api.Migrations
                 name: "Theft",
                 columns: table => new
                 {
-                    NumeroBO = table.Column<double>(type: "double precision", nullable: false),
-                    Type = table.Column<string>(type: "character varying(10)", maxLength: 10, nullable: false),
-                    Ano_bo = table.Column<int>(type: "integer", nullable: false),
                     Num_bo = table.Column<double>(type: "double precision", nullable: false),
+                    Type = table.Column<string>(type: "text", nullable: false),
+                    Ano_bo = table.Column<int>(type: "integer", nullable: false),
                     Numero_boletim = table.Column<string>(type: "character varying(15)", maxLength: 15, nullable: false),
                     Bo_iniciado = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Bo_emitido = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Dataocorrencia = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    Horaocorrencia = table.Column<string>(type: "character varying(2)", maxLength: 2, nullable: false),
+                    Horaocorrencia = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Peridoocorrencia = table.Column<string>(type: "character varying(15)", maxLength: 15, nullable: false),
                     Datacomunicacao = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
                     Dataelaboracao = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
@@ -72,7 +71,7 @@ namespace Oraculo.Api.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Theft", x => x.NumeroBO);
+                    table.PrimaryKey("PK_Theft", x => x.Num_bo);
                 });
         }
 

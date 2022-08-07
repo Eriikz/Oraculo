@@ -20,7 +20,7 @@ namespace Oraculo.Api.Models
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Theft>().
-                HasKey(PE => new { PE.NumeroBO });
+                HasKey(PE => new { PE.Num_bo });
             base.OnModelCreating(modelBuilder);
         }
     }

@@ -242,7 +242,7 @@
           "build/Microsoft.VisualStudio.Azure.Containers.Tools.Targets.targets": {}
         }
       },
-      "Npgsql/6.0.5": {
+      "Npgsql/6.0.6": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
@@ -254,13 +254,13 @@
           "lib/net6.0/Npgsql.dll": {}
         }
       },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.5": {
+      "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.6": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.5",
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.5",
-          "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
-          "Npgsql": "6.0.5"
+          "Microsoft.EntityFrameworkCore": "6.0.7",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.7",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.7",
+          "Npgsql": "6.0.6"
         },
         "compile": {
           "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
@@ -269,7 +269,7 @@
           "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {}
         }
       },
-      "SonarAnalyzer.CSharp/8.42.0.51121": {
+      "SonarAnalyzer.CSharp/8.43.0.51858": {
         "type": "package"
       },
       "Swashbuckle.AspNetCore/6.4.0": {
@@ -1034,10 +1034,10 @@
         "tools/zh-Hant/Microsoft.VisualStudio.Containers.Tools.Tasks.resources.dll"
       ]
     },
-    "Npgsql/6.0.5": {
-      "sha512": "a11H5/b5yNTuFN0Ycjvb920oI6vQHadt6KhEMmcC7DfvsSHH8Z3wBam+CHmyWcfDxJJaxamcdBb8XA3BvqS4Kw==",
+    "Npgsql/6.0.6": {
+      "sha512": "IIwnoJp0sFkhAydT/KKe/0NhlJKhYPIrXSE95AuU/2dqHNI9alxvjClJSGL+QE8NGqq1SFn+NenxVtm/JYsrJg==",
       "type": "package",
-      "path": "npgsql/6.0.5",
+      "path": "npgsql/6.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1052,29 +1052,29 @@
         "lib/netstandard2.0/Npgsql.xml",
         "lib/netstandard2.1/Npgsql.dll",
         "lib/netstandard2.1/Npgsql.xml",
-        "npgsql.6.0.5.nupkg.sha512",
+        "npgsql.6.0.6.nupkg.sha512",
         "npgsql.nuspec",
         "postgresql.png"
       ]
     },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.5": {
-      "sha512": "1eAaz5CwwZbATraqYyYsG2tMWZM1ydyLmQVpFGTzkUUKB/sAL5QWB0IfjSxOjiIDp5JY1WoFndkcaGMEcexVXg==",
+    "Npgsql.EntityFrameworkCore.PostgreSQL/6.0.6": {
+      "sha512": "e1RVE6xtKDsWcCvBpXnbbHfY2p2/9l6cO/FpXvP3QqvRSCcWoabC22sr8wdWPRxex0a128Pq678Jo5XiIMcrxw==",
       "type": "package",
-      "path": "npgsql.entityframeworkcore.postgresql/6.0.5",
+      "path": "npgsql.entityframeworkcore.postgresql/6.0.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
         "lib/net6.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll",
-        "npgsql.entityframeworkcore.postgresql.6.0.5.nupkg.sha512",
+        "npgsql.entityframeworkcore.postgresql.6.0.6.nupkg.sha512",
         "npgsql.entityframeworkcore.postgresql.nuspec",
         "postgresql.png"
       ]
     },
-    "SonarAnalyzer.CSharp/8.42.0.51121": {
-      "sha512": "zEyI+0BYMlQ9nfgXoBnHOZ5Z0RrT/hwOutds+03nCpzGbTTj2idcvUyQDSuTqTudkryl4GGX6DA38MiUfKDsGw==",
+    "SonarAnalyzer.CSharp/8.43.0.51858": {
+      "sha512": "3izLCHSw0zqjbDfcJjAY3m75Goi5pcOOYss1HQGjgwWmAncddNJifIpT2KnOlE6GxKwf26TkgapxhJlUR8iosQ==",
       "type": "package",
-      "path": "sonaranalyzer.csharp/8.42.0.51121",
+      "path": "sonaranalyzer.csharp/8.43.0.51858",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1085,7 +1085,7 @@
         "analyzers/SonarAnalyzer.dll",
         "images/sonarsource_64.png",
         "license/THIRD-PARTY-NOTICES.txt",
-        "sonaranalyzer.csharp.8.42.0.51121.nupkg.sha512",
+        "sonaranalyzer.csharp.8.43.0.51858.nupkg.sha512",
         "sonaranalyzer.csharp.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
@@ -1251,8 +1251,8 @@
       "Microsoft.EntityFrameworkCore >= 6.0.7",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.7",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.16.1",
-      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.5",
-      "SonarAnalyzer.CSharp >= 8.42.0.51121",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.6",
+      "SonarAnalyzer.CSharp >= 8.43.0.51858",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
@@ -1316,13 +1316,13 @@
           },
           "Npgsql.EntityFrameworkCore.PostgreSQL": {
             "target": "Package",
-            "version": "[6.0.5, )"
+            "version": "[6.0.6, )"
           },
           "SonarAnalyzer.CSharp": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.42.0.51121, )"
+            "version": "[8.43.0.51858, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
