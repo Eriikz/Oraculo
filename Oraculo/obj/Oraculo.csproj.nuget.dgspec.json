@@ -44,9 +44,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+            "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
-              "version": "[1.16.1, )"
+              "version": "[6.0.5, )"
             }
           },
           "imports": [

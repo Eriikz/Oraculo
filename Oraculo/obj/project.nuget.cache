@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "TBpRIvdhJJl1G3LxErRM9SPNEpctcoREcma+HvwJ44425+EBZvaIualze0gbhUXVkkcWUzIwnWhGMZI66CIegg==",
+  "dgSpecHash": "/H3OSSUsP0hFRvsMFLd5/M9YF4yNH5EoFAZZYW+UgttH4dkdolDa7WNVPm/96w8U6t37ZqMALdus6ffiwWYGXw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Erik\\Desktop\\Oraculo\\Oraculo\\Oraculo.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Erik\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.16.1\\microsoft.visualstudio.azure.containers.tools.targets.1.16.1.nupkg.sha512"
+    "C:\\Users\\Erik\\.nuget\\packages\\microsoft.aspnetcore.spaproxy\\6.0.5\\microsoft.aspnetcore.spaproxy.6.0.5.nupkg.sha512"
   ],
   "logs": []
 }

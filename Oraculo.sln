@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32319.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oraculo", "Oraculo\Oraculo.csproj", "{2DDFC09A-48E3-4042-8835-A1DDAE071039}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oraculo.Api", "Oraculo.Api\Oraculo.Api.csproj", "{4AC6F9DD-23C0-4C70-885D-A6A46CC13070}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oraculo.Test", "Oraculo.Test\Oraculo.Test.csproj", "{22334CB1-CEC4-4D2A-A21F-7125CF7D57EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Oraculo.Test", "Oraculo.Test\Oraculo.Test.csproj", "{22334CB1-CEC4-4D2A-A21F-7125CF7D57EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oraculo", "Oraculo\Oraculo.csproj", "{FD299092-9B7A-44C1-BD4C-5AD1E4107D50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2DDFC09A-48E3-4042-8835-A1DDAE071039}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2DDFC09A-48E3-4042-8835-A1DDAE071039}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2DDFC09A-48E3-4042-8835-A1DDAE071039}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2DDFC09A-48E3-4042-8835-A1DDAE071039}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4AC6F9DD-23C0-4C70-885D-A6A46CC13070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4AC6F9DD-23C0-4C70-885D-A6A46CC13070}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AC6F9DD-23C0-4C70-885D-A6A46CC13070}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{22334CB1-CEC4-4D2A-A21F-7125CF7D57EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22334CB1-CEC4-4D2A-A21F-7125CF7D57EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22334CB1-CEC4-4D2A-A21F-7125CF7D57EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD299092-9B7A-44C1-BD4C-5AD1E4107D50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD299092-9B7A-44C1-BD4C-5AD1E4107D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD299092-9B7A-44C1-BD4C-5AD1E4107D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD299092-9B7A-44C1-BD4C-5AD1E4107D50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
