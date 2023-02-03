@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+EFDdO6yB2TiE+v/tiO/WvKDS+Epc/qnvo+sNRiU4XA=",
+  "Hash": "6WdbUbLWpcuR0qXZYKQpl/zINrkCcVOhzXB2MK9Eaig=",
   "Source": "Oraculo",
   "BasePath": "_content/Oraculo",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Oraculo\\wwwroot",
       "Source": "Oraculo",
-      "ContentRoot": "C:\\Users\\Erik\\Desktop\\Oraculo\\Oraculo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\019268631\\Desktop\\Tecnologia\\Oraculo\\Oraculo\\Oraculo\\wwwroot\\",
       "BasePath": "_content/Oraculo",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Erik\\Desktop\\Oraculo\\Oraculo\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\019268631\\Desktop\\Tecnologia\\Oraculo\\Oraculo\\Oraculo\\wwwroot\\favicon.ico",
       "SourceId": "Oraculo",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Erik\\Desktop\\Oraculo\\Oraculo\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\019268631\\Desktop\\Tecnologia\\Oraculo\\Oraculo\\Oraculo\\wwwroot\\",
       "BasePath": "_content/Oraculo",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

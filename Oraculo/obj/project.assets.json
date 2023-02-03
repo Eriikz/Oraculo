@@ -42,23 +42,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Erik\\.nuget\\packages\\": {},
+    "C:\\Users\\019268631\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Erik\\Desktop\\Oraculo\\Oraculo\\Oraculo.csproj",
+      "projectUniqueName": "C:\\Users\\019268631\\Desktop\\Tecnologia\\Oraculo\\Oraculo\\Oraculo\\Oraculo.csproj",
       "projectName": "Oraculo",
-      "projectPath": "C:\\Users\\Erik\\Desktop\\Oraculo\\Oraculo\\Oraculo.csproj",
-      "packagesPath": "C:\\Users\\Erik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Erik\\Desktop\\Oraculo\\Oraculo\\obj\\",
+      "projectPath": "C:\\Users\\019268631\\Desktop\\Tecnologia\\Oraculo\\Oraculo\\Oraculo\\Oraculo.csproj",
+      "packagesPath": "C:\\Users\\019268631\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\019268631\\Desktop\\Tecnologia\\Oraculo\\Oraculo\\Oraculo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Erik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\019268631\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -96,7 +96,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -108,7 +109,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
